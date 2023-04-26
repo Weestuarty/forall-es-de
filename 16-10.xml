@@ -1,0 +1,46 @@
+<theme>
+     <variant name="hyperwithVideos, hyperwithoutVideos">
+    <view name="system">
+       <helpsystem name="help">
+                <fontSize>0.0275</fontSize>
+                <fontSizeDimmed>0.0325</fontSizeDimmed>
+        </helpsystem>
+        <text name="systemDescription">
+                <fontSize>0.0375</fontSize>
+            </text>
+    </view>
+
+    <view name="gamelist">
+       <rating name="md_rating">
+            <pos>0.855 0.165</pos>
+        </rating>
+        <helpsystem name="help">
+                <fontSize>0.0275</fontSize>
+                <fontSizeDimmed>0.0325</fontSizeDimmed>
+        </helpsystem>
+        <textlist name="gamelist_textlist">
+                <fontSize>0.0325</fontSize>
+        </textlist>
+        <text name="md_description">
+                <fontSize>0.035</fontSize>
+            </text>
+    </view>
+      </variant> 
+    <variant name="dyslexicwithVideos, dyslexicwithoutVideos">
+       <view name="gamelist">
+       <rating name="md_rating">
+            <pos>0.855 0.165</pos>
+        </rating>
+        <helpsystem name="help">
+                <fontSize>0.02</fontSize>
+                <fontSizeDimmed>0.03</fontSizeDimmed>
+        </helpsystem>
+        <textlist name="gamelist_textlist">
+                <fontSize>0.02</fontSize>
+        </textlist>
+        <text name="md_description">
+                <fontSize>0.02</fontSize>
+            </text>
+    </view>
+      </variant>  
+</theme>

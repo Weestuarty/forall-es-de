@@ -1,0 +1,105 @@
+<theme>
+    <colorScheme name="mono1">
+        <variables>
+            <color4>648FFF</color4>
+            <color7>785eF0</color7>
+            <color1>000000</color1>
+            <color2>000000</color2>
+            <color5>FFB000</color5>
+            <color6>000000</color6>
+            <color8>FFFFFF</color8>
+            <color3>000000</color3>
+        </variables>
+    </colorScheme>
+    <colorScheme name="mono2">
+        <variables>
+            <color4>648FFF</color4>
+            <color7>785eF0</color7>
+            <color1>FFFFFF</color1>
+            <color2>FFFFFF</color2>
+            <color5>FFB000</color5>
+            <color6>FFFFFF</color6>
+            <color8>000000</color8>
+            <color3>FFFFFF</color3>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="IBM">
+        <variables>
+            <color4>648FFF</color4>
+            <color7>785eF0</color7>
+            <color1>DC267F</color1>
+            <color2>FE6100</color2>
+            <color5>FFB000</color5>
+            <color6>000000</color6>
+            <color8>FFFFFF</color8>
+            <color3>000000</color3>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="BangWong">
+        <variables>
+            <color1>E69F00</color1>
+            <color2>56B4E9</color2>
+            <color3>009E73</color3>
+            <color4>F0E442</color4>
+            <color5>0072B2</color5>
+            <color6>D55E00</color6>
+            <color7>CC79A7</color7>
+            <color8>000000</color8>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="PaulTol">
+        <variables>
+            <color1>AA4499</color1>
+            <color2>88CCEE</color2>
+            <color3>DDCC77</color3>
+            <color4>44aa99</color4>
+            <color5>117733</color5>
+            <color6>CC6677</color6>
+            <color7>882255</color7>
+            <color8>332288</color8>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="IBM2">
+        <variables>
+            <color7>648FFF</color7>
+            <color2>785eF0</color2>
+            <color3>DC267F</color3>
+            <color4>FE6100</color4>
+            <color5>FFB000</color5>
+            <color6>000000</color6>
+            <color8>FFFFFF</color8>
+            <color1>FE6100</color1>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="BangWong2">
+        <variables>
+            <color5>E69F00</color5>
+            <color6>56B4E9</color6>
+            <color2>009E73</color2>
+            <color4>F0E442</color4>
+            <color1>0072B2</color1>
+            <color3>D55E00</color3>
+            <color7>CC79A7</color7>
+            <color8>000000</color8>
+        </variables>
+    </colorScheme>
+
+    <colorScheme name="PaulTol2">
+        <variables>
+            <color1>AA4499</color1>
+            <color5>88CCEE</color5>
+            <color8>DDCC77</color8>
+            <color4>44aa99</color4>
+            <color2>117733</color2>
+            <color6>CC6677</color6>
+            <color7>882255</color7>
+            <color3>332288</color3>
+        </variables>
+    </colorScheme>
+
+</theme>

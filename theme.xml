@@ -1,0 +1,360 @@
+<theme>
+    <include>./navigationsounds.xml</include>
+    <include>./colors.xml</include>
+    <include>./metadata-global/_default.xml</include>
+    <include>./metadata-global/${system.theme}.xml</include>
+
+    <aspectRatio name="4:3">
+        <include>./4-3.xml</include>
+    </aspectRatio>
+
+    <aspectRatio name="16:10">
+        <include>./16-10.xml</include>
+    </aspectRatio>
+
+    <aspectRatio name="21:9">
+        <include>./21-9.xml</include>
+    </aspectRatio>
+
+    <variables>
+        <systemControllerImage>./core/controllers/${system.theme}.svg</systemControllerImage>
+        <systemLogo>./core/syslogo/${system.theme}.svg</systemLogo>
+        <dyslexia>./core/fonts/opendyslexia.otf</dyslexia>
+        <dyslexiaBold>./core/fonts/opendyslexiabold.otf</dyslexiaBold>
+        <hyper>./core/fonts/hyper.otf</hyper>
+        <hyperBold>./core/fonts/hyperbold.otf</hyperBold>
+    </variables>
+
+    <variant name="all">
+        <view name="system">
+            <carousel name="system_carousel">
+                <pos>0.02 0</pos>
+                <size>0.3 1</size>
+                <type>vertical</type>
+                <staticImage>./core/syslogo/${system.theme}.svg</staticImage>
+                <imageColor>${color8}</imageColor>
+                <imageSelectedColor>${color1}</imageSelectedColor>
+                <maxItemCount>7</maxItemCount>
+                <itemSize>0.14 0.085</itemSize>
+                <itemScale>1.8</itemScale>
+                <itemHorizontalAlignment>left</itemHorizontalAlignment>
+                <imageInterpolation>linear</imageInterpolation>
+                <unfocusedItemOpacity>1</unfocusedItemOpacity>
+                <color>00000000</color>
+                <text>${system.fullName}</text>
+                <textColor>${color2}</textColor>
+                <fontSize>0.02</fontSize>
+                <letterCase>uppercase</letterCase>
+                <lineSpacing>1</lineSpacing>
+                <zIndex>29</zIndex>
+            </carousel>
+            <image name="car1">
+                <pos>0 -.25</pos>
+                <size>0.17 .9</size>
+                <path>./core/images/bar.png</path>
+                <color>${color1}</color>
+                <zIndex>11</zIndex>
+            </image>
+            <image name="car2">
+                <pos>0 .37</pos>
+                <size>0.17 .86</size>
+                <path>./core/images/bar.png</path>
+                <color>${color1}</color>
+                <zIndex>11</zIndex>
+            </image>
+            <text name="game_counter">
+                <pos>0.2 0.675</pos>
+                <size>1 0.056</size>
+                <origin>0 0.5</origin>
+                <systemdata>gamecountGames</systemdata>
+                <fontSize>0.03</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <color>${color2}</color>
+                <letterCase>uppercase</letterCase>
+                <zIndex>50</zIndex>
+            </text>
+            <text name="game_counter2">
+                <pos>0.2 0.725</pos>
+                <size>1 0.056</size>
+                <origin>0 0.5</origin>
+                <systemdata>gamecountFavorites</systemdata>
+                <fontSize>0.03</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <color>${color2}</color>
+                <letterCase>uppercase</letterCase>
+                <zIndex>50</zIndex>
+            </text>
+            <helpsystem name="help">
+                <pos>0.99 0.9825</pos>
+                <origin>1 1</origin>
+                <textColor>${color8}</textColor>
+                <iconColor>${color8}</iconColor>
+                <posDimmed>0.5 0.99</posDimmed>
+                <originDimmed>0.5 1</originDimmed>
+                <fontSizeDimmed>0.03</fontSizeDimmed>
+                <textColorDimmed>${color8}</textColorDimmed>
+                <iconColorDimmed>${color8}</iconColorDimmed>
+                <fontSize>0.0225</fontSize>
+            </helpsystem>
+        </view>
+        <view name="gamelist">
+            <textlist name="gamelist_textlist">
+                <pos>0.0 0.1875</pos>
+                <size>0.44 0.74</size>
+                <selectorColor>${color1}</selectorColor>
+                <selectedColor>${color8}</selectedColor>
+                <primaryColor>${color1}</primaryColor>
+                <secondaryColor>${color1}</secondaryColor>
+                <fontSize>0.0225</fontSize>
+                <horizontalAlignment>left</horizontalAlignment>
+                <horizontalMargin>0.01</horizontalMargin>
+                <letterCase>uppercase</letterCase>
+                <indicators>symbols</indicators>
+                <collectionIndicators>symbols</collectionIndicators>
+                <lineSpacing>2.07</lineSpacing>
+            </textlist>
+            <helpsystem name="help">
+                <pos>0.99 0.9825</pos>
+                <origin>1 1</origin>
+                <textColor>${color8}</textColor>
+                <iconColor>${color8}</iconColor>
+                <posDimmed>0.5 0.99</posDimmed>
+                <originDimmed>0.5 1</originDimmed>
+                <fontSizeDimmed>0.03</fontSizeDimmed>
+                <textColorDimmed>${color8}</textColorDimmed>
+                <iconColorDimmed>${color8}</iconColorDimmed>
+                <fontSize>0.0225</fontSize>
+            </helpsystem>
+        </view>
+    </variant>
+
+    <view name="system, gamelist">
+        <image name="background">
+            <pos>0 0</pos>
+            <size>1 1</size>
+            <path>./core/images/background.png</path>
+            <tile>true</tile>
+            <color>${color8}</color>
+            <zIndex>0</zIndex>
+        </image>
+        <image name="bottom">
+            <pos>0 0.89</pos>
+            <size>1 0.2</size>
+            <origin>0 0</origin>
+            <path>./core/images/bar.png</path>
+            <color>${color1}</color>
+            <zIndex>10</zIndex>
+        </image>
+
+    </view>
+
+    <view name="system">
+        <image name="consolegame">
+            <pos>0.36 0.2</pos>
+            <maxSize>0.3 0.4</maxSize>
+            <origin>0.6 0.45</origin>
+            <path>${systemControllerImage}</path>
+            <color>${color2}</color>
+        </image>
+
+        <text name="systemDescription">
+            <size>0.475 0.85</size>
+            <fontSize>0.025</fontSize>
+            <container>true</container>
+            <text>${systemDescription}</text>
+            <horizontalAlignment>left</horizontalAlignment>
+            <lineSpacing>1</lineSpacing>
+            <color>${color3}</color>
+            <pos>0.5 0.075</pos>
+        </text>
+
+    </view>
+
+    <view name="gamelist">
+
+        <image name="logo">
+            <pos>0.04 0.16</pos>
+            <maxSize>0.32 0.13</maxSize>
+            <origin>0 1</origin>
+            <path>${systemLogo}</path>
+            <color>${color2}</color>
+        </image>
+        <image name="backframe2">
+            <pos>0.445 0.035</pos>
+            <size>0.53 0.875</size>
+            <origin>0 0</origin>
+            <path>./core/images/background.png</path>
+            <color>${color8}</color>
+            <zIndex>11</zIndex>
+        </image>
+        <image name="backframe3">
+            <pos>0.44 0.025</pos>
+            <size>0.54 0.895</size>
+            <origin>0 0</origin>
+            <path>./core/images/background.png</path>
+            <color>${color1}</color>
+            <zIndex>10</zIndex>
+        </image>
+
+        <text name="md_description">
+            <pos>0.454 0.57</pos>
+            <size>0.475 0.34</size>
+            <container>true</container>
+            <containerVerticalSnap>true</containerVerticalSnap>
+            <containerScrollSpeed>1</containerScrollSpeed>
+            <containerStartDelay>4.5</containerStartDelay>
+            <containerResetDelay>7</containerResetDelay>
+            <metadata>description</metadata>
+            <fontSize>0.02</fontSize>
+            <color>${color3}</color>
+            <letterCase>uppercase</letterCase>
+            <lineSpacing>1.2</lineSpacing>
+        </text>
+
+        <rating name="md_rating">
+            <pos>0.865 0.165</pos>
+            <size>0 0.06</size>
+            <rotation>-90</rotation>
+            <interpolation>nearest</interpolation>
+            <color>${color2}</color>
+            <filledPath>./core/images/rating_filled.svg</filledPath>
+            <unfilledPath>./core/images/rating_empty.svg</unfilledPath>
+            <overlay>false</overlay>
+        </rating>
+
+        <badges name="md_badges">
+            <pos>0.93 0.35</pos>
+            <size>0.04 0.7</size>
+            <horizontalAlignment>left</horizontalAlignment>
+            <direction>column</direction>
+            <lines>1</lines>
+            <itemsPerLine>5</itemsPerLine>
+            <slots>favorite, completed, kidgame, controller, altemulator</slots>
+            <controllerPos>0.5 0.572</controllerPos>
+            <controllerSize>0.81</controllerSize>
+            <folderLinkPos>0.54 0.64</folderLinkPos>
+            <folderLinkSize>0.31</folderLinkSize>
+            <itemMargin>-1.0 0.005</itemMargin>
+        </badges>
+    </view>
+
+    <variant name="dyslexicwithVideos, hyperwithVideos">
+        <view name="gamelist">
+            <video name="md_video">
+                <pos>0.69 0.3</pos>
+                <maxSize>0.46 0.5</maxSize>
+                <origin>0.5 0.5</origin>
+                <imageType>image</imageType>
+                <interpolation>nearest</interpolation>
+                <pillarboxes>true</pillarboxes>
+                <pillarboxThreshold>0.85 0.90</pillarboxThreshold>
+                <delay>1.7</delay>
+                <scrollFadeIn>true</scrollFadeIn>
+            </video>
+        </view>
+    </variant>
+
+    <variant name="dyslexicwithoutVideos, hyperwithoutVideos">
+        <view name="gamelist">
+            <image name="md_image">
+                <pos>0.69 0.3</pos>
+                <maxSize>0.46 0.5</maxSize>
+                <origin>0.5 0.5</origin>
+                <imageType>image</imageType>
+                <interpolation>nearest</interpolation>
+                <scrollFadeIn>true</scrollFadeIn>
+            </image>
+        </view>
+    </variant>
+
+
+    <variant name="dyslexicwithVideos, dyslexicwithoutVideos">
+        <view name="system">
+            <carousel name="system_carousel">
+                <fontPath>${dyslexia}</fontPath>
+            </carousel>
+            <text name="game_counter">
+                <fontPath>${dyslexia}</fontPath>
+            </text>
+            <text name="game_counter2">
+                <fontPath>${dyslexia}</fontPath>
+            </text>
+            <helpsystem name="help">
+                <fontPath>${dyslexia}</fontPath>
+            </helpsystem>
+        </view>
+        <view name="gamelist">
+            <textlist name="gamelist_textlist">
+                <fontPath>${dyslexiaBold}</fontPath>
+            </textlist>
+            <helpsystem name="help">
+                <fontPath>${dyslexia}</fontPath>
+            </helpsystem>
+        </view>
+
+
+        <view name="system">
+            <text name="systemDescription">
+                <fontPath>${dyslexiaBold}</fontPath>
+            </text>
+
+        </view>
+
+        <view name="gamelist">
+            <text name="md_description">
+                <fontPath>${dyslexia}</fontPath>
+            </text>
+        </view>
+    </variant>
+    <variant name="hyperwithVideos, hyperwithoutVideos">
+        <view name="system">
+            <carousel name="system_carousel">
+                <fontPath>${hyper}</fontPath>
+                <fontSize>0.035</fontSize>
+            </carousel>
+            <text name="game_counter">
+                <fontPath>${hyper}</fontPath>
+                <fontSize>0.04</fontSize>
+            </text>
+            <text name="game_counter2">
+                <fontPath>${hyper}</fontPath>
+                <fontSize>0.04</fontSize>
+            </text>
+            <helpsystem name="help">
+                <fontPath>${hyper}</fontPath>
+                <fontSize>0.035</fontSize>
+                <fontSizeDimmed>0.04</fontSizeDimmed>
+            </helpsystem>
+        </view>
+        <view name="gamelist">
+            <textlist name="gamelist_textlist">
+                <fontPath>${hyperBold}</fontPath>
+                <fontSize>0.04</fontSize>
+            </textlist>
+            <helpsystem name="help">
+                <fontPath>${hyper}</fontPath>
+                <fontSize>0.035</fontSize>
+                <fontSizeDimmed>0.04</fontSizeDimmed>
+            </helpsystem>
+        </view>
+
+
+        <view name="system">
+            <text name="systemDescription">
+                <fontPath>${hyperBold}</fontPath>
+                <fontSize>0.038</fontSize>
+                <lineSpacing>1.2</lineSpacing>
+            </text>
+
+        </view>
+
+        <view name="gamelist">
+            <text name="md_description">
+                <fontPath>${hyper}</fontPath>
+                <fontSize>0.04</fontSize>
+            </text>
+        </view>
+    </variant>
+
+
+</theme>

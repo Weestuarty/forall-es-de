@@ -1,0 +1,12 @@
+<theme>
+    <view name="system">
+        
+    </view>
+
+    <view name="gamelist">
+         <rating name="md_rating">
+            <pos>0.885 0.165</pos>
+        </rating>
+    </view>
+        
+</theme>

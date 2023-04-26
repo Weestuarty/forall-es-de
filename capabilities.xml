@@ -1,0 +1,91 @@
+<themeCapabilities>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>21:9</aspectRatio>
+
+    <suppressTransitionProfiles>
+        <entry>builtin-instant</entry>
+        <entry>builtin-slide</entry>
+        <entry>builtin-fade</entry>
+    </suppressTransitionProfiles>
+
+    <transitions name="instantfade">
+        <label>Instant w/Fade</label>
+        <selectable>true</selectable>
+        <systemToSystem>instant</systemToSystem>
+        <systemToGamelist>fade</systemToGamelist>
+        <gamelistToGamelist>instant</gamelistToGamelist>
+        <gamelistToSystem>fade</gamelistToSystem>
+        <startupToSystem>slide</startupToSystem>
+        <startupToGamelist>slide</startupToGamelist>
+    </transitions>
+    <transitions name="instant">
+        <label>Instant</label>
+        <selectable>true</selectable>
+        <systemToSystem>instant</systemToSystem>
+        <systemToGamelist>instant</systemToGamelist>
+        <gamelistToGamelist>instant</gamelistToGamelist>
+        <gamelistToSystem>instant</gamelistToSystem>
+        <startupToSystem>instant</startupToSystem>
+        <startupToGamelist>instant</startupToGamelist>
+    </transitions>
+
+    <themeName>ForAll</themeName>
+
+    <colorScheme name="mono1">
+        <label>Mono</label>
+    </colorScheme>
+
+    <colorScheme name="mono2">
+        <label>Mono Variant</label>
+    </colorScheme>
+
+    <colorScheme name="IBM">
+        <label>IBM</label>
+    </colorScheme>
+
+    <colorScheme name="IBM2">
+        <label>IBM Variant</label>
+    </colorScheme>
+
+    <colorScheme name="BangWong">
+        <label>Bang Wong</label>
+    </colorScheme>
+
+    <colorScheme name="BangWong2">
+        <label>Bang Wong Variant</label>
+    </colorScheme>
+
+    <colorScheme name="PaulTol">
+        <label>Paul Tol</label>
+    </colorScheme>
+
+    <colorScheme name="PaulTol2">
+        <label>Paul Tol Variant</label>
+    </colorScheme>
+
+    <variant name="dyslexicwithVideos">
+        <label>Dyslexia w videos</label>
+        <selectable>true</selectable>
+
+    </variant>
+
+    <variant name="dyslexicwithoutVideos">
+        <label>Dyslexia w/o videos</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="hyperwithVideos">
+        <label>Impaired w videos</label>
+        <selectable>true</selectable>
+
+    </variant>
+
+    <variant name="hyperwithoutVideos">
+        <label>Impaired w/o videos</label>
+        <selectable>true</selectable>
+
+    </variant>
+
+
+</themeCapabilities>
