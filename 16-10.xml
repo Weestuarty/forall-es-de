@@ -16,7 +16,7 @@
         </rating>
         <helpsystem name="help">
                 <fontSize>0.0275</fontSize>
-                <fontSizeDimmed>0.0325</fontSizeDimmed>
+                <fontSizeDimmed>0.035</fontSizeDimmed>
         </helpsystem>
         <textlist name="gamelist_textlist">
                 <fontSize>0.0325</fontSize>
@@ -33,7 +33,7 @@
         </rating>
         <helpsystem name="help">
                 <fontSize>0.02</fontSize>
-                <fontSizeDimmed>0.03</fontSizeDimmed>
+                <fontSizeDimmed>0.02</fontSizeDimmed>
         </helpsystem>
         <textlist name="gamelist_textlist">
                 <fontSize>0.02</fontSize>

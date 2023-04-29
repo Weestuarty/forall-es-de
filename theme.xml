@@ -91,7 +91,7 @@
                 <iconColor>${color8}</iconColor>
                 <posDimmed>0.5 0.99</posDimmed>
                 <originDimmed>0.5 1</originDimmed>
-                <fontSizeDimmed>0.03</fontSizeDimmed>
+                <fontSizeDimmed>0.025</fontSizeDimmed>
                 <textColorDimmed>${color8}</textColorDimmed>
                 <iconColorDimmed>${color8}</iconColorDimmed>
                 <fontSize>0.0225</fontSize>
@@ -120,7 +120,7 @@
                 <iconColor>${color8}</iconColor>
                 <posDimmed>0.5 0.99</posDimmed>
                 <originDimmed>0.5 1</originDimmed>
-                <fontSizeDimmed>0.03</fontSizeDimmed>
+                <fontSizeDimmed>0.025</fontSizeDimmed>
                 <textColorDimmed>${color8}</textColorDimmed>
                 <iconColorDimmed>${color8}</iconColorDimmed>
                 <fontSize>0.0225</fontSize>
@@ -333,8 +333,8 @@
             </textlist>
             <helpsystem name="help">
                 <fontPath>${hyper}</fontPath>
-                <fontSize>0.035</fontSize>
-                <fontSizeDimmed>0.04</fontSizeDimmed>
+                <fontSize>0.025</fontSize>
+                <fontSizeDimmed>0.03</fontSizeDimmed>
             </helpsystem>
         </view>
 
