@@ -1,8 +1,8 @@
 <theme>
     <include>./navigationsounds.xml</include>
     <include>./colors.xml</include>
-    <include>./metadata-global/_default.xml</include>
-    <include>./metadata-global/${system.theme}.xml</include>
+    <include>./system-metadata/_default.xml</include>
+    <include>./system-metadata/${system.theme}.xml</include>
 
     <aspectRatio name="4:3">
         <include>./4-3.xml</include>
@@ -18,7 +18,7 @@
 
     <variables>
         <systemControllerImage>./core/controllers/${system.theme}.svg</systemControllerImage>
-        <systemLogo>./core/syslogo/${system.theme}.svg</systemLogo>
+        <systemLogo>./syslogo/syslogo/${system.theme}.svg</systemLogo>
         <dyslexia>./core/fonts/opendyslexia.otf</dyslexia>
         <dyslexiaBold>./core/fonts/opendyslexiabold.otf</dyslexiaBold>
         <hyper>./core/fonts/hyper.otf</hyper>
@@ -31,7 +31,7 @@
                 <pos>0.02 0</pos>
                 <size>0.3 1</size>
                 <type>vertical</type>
-                <staticImage>./core/syslogo/${system.theme}.svg</staticImage>
+                <staticImage>${systemLogo}</staticImage>
                 <imageColor>${color8}</imageColor>
                 <imageSelectedColor>${color1}</imageSelectedColor>
                 <maxItemCount>7</maxItemCount>
