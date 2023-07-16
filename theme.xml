@@ -229,7 +229,7 @@
             <direction>column</direction>
             <lines>1</lines>
             <itemsPerLine>5</itemsPerLine>
-            <slots>favorite, completed, kidgame, controller, altemulator</slots>
+            <slots>favorite, completed, kidgame, controller, altemulator, manual</slots>
             <controllerPos>0.5 0.572</controllerPos>
             <controllerSize>0.81</controllerSize>
             <folderLinkPos>0.54 0.64</folderLinkPos>
