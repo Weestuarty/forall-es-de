@@ -18,7 +18,7 @@
 
     <variables>
         <systemControllerImage>./core/controllers/${system.theme}.svg</systemControllerImage>
-        <systemLogo>./syslogo/syslogo/${system.theme}.svg</systemLogo>
+        <systemLogo>./system/system-logo-white/${system.theme}.svg</systemLogo>
         <dyslexia>./core/fonts/opendyslexia.otf</dyslexia>
         <dyslexiaBold>./core/fonts/opendyslexiabold.otf</dyslexiaBold>
         <hyper>./core/fonts/hyper.otf</hyper>
