@@ -228,7 +228,7 @@
             <horizontalAlignment>left</horizontalAlignment>
             <direction>column</direction>
             <lines>1</lines>
-            <itemsPerLine>5</itemsPerLine>
+            <itemsPerLine>6</itemsPerLine>
             <slots>favorite, completed, kidgame, controller, altemulator, manual</slots>
             <controllerPos>0.5 0.572</controllerPos>
             <controllerSize>0.81</controllerSize>
