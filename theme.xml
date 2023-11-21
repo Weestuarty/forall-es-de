@@ -17,7 +17,7 @@
     </aspectRatio>
 
     <variables>
-        <systemControllerImage>./core/controllers/${system.theme}.svg</systemControllerImage>
+        <systemControllerImage>./system/controller-outline/${system.theme}.svg</systemControllerImage>
         <systemLogo>./system/logos/system-logo-white/${system.theme}.svg</systemLogo>
         <dyslexia>./core/fonts/opendyslexia.otf</dyslexia>
         <dyslexiaBold>./core/fonts/opendyslexiabold.otf</dyslexiaBold>
